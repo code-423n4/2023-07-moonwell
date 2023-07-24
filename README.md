@@ -36,7 +36,7 @@ The following issues are known issues with the Compoundv2 codebase, and as such,
 * New markets must be added with no collateral factor, and some small amount of the collateral token supply must be burned in order to avoid market manipulation. This is a known issue.
 * Comptroller `_rescueFunds` function does not check the return value of transfer. This is expected.
 * MToken `sweepToken` does not check the return value of transfer. This is expected.
-
+* All findings in [both](https://github.com/code-423n4/2023-07-moonwell/blob/main/audits/Moonwell_Finance_Smart_Contract_Security_Audit_Report_Halborn_Final.pdf) of the [Halborn audits](https://github.com/code-423n4/2023-07-moonwell/blob/main/audits/Moonwell_Finance_Contracts_V2_Smart_Contract_Security_Assessment_Report_Halborn_Final.pdf) are out of scope.
 
 # Overview
 The Moonwell Protocol is a fork of Benqi, which is a fork of Compound v2 with features like borrow caps and multi-token emissions.
