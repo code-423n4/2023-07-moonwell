@@ -19,7 +19,7 @@
 
 ## Automated Findings / Publicly Known Issues
 
-Automated findings output for the audit can be found [here](add link to report) within 24 hours of audit opening.
+Automated findings output for the audit can be found [here](https://gist.github.com/liveactionllama/0a27b77de2aa56abd2e215c82a39f86d) within 24 hours of audit opening.
 
 *Note for C4 wardens: Anything included in the automated findings output is considered a publicly known issue and is ineligible for awards.*
 * ChainlinkCompositeOracle `getPriceAndDecimals` uses roundId, roundId is deprecated, so this is a known issue.
