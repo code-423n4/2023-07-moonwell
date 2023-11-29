@@ -1,0 +1,736 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q3-2023 / moonwell-jul24
+==============================================================
+
+[07/21/2023 10:07] kartoonjoy (pinned)
+👋 Hello and welcome to the audit channel for the $100,000 USDC **Moonwell** audit!
+
+📆 Audit opens 07/24/2023 20:00 (20:00 UTC) and runs through 07/31/2023 20:00 (20:00 UTC) (7 days).
+
+Please give a warm welcome to the Moonwell team, particularly @elliot, who will be available for questions either here in the channel or via DM in the PT timezone(s).
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this audit, consider enabling notifications for this channel. 🐺 ⏰
+
+Audit Page: https://code4rena.com/contests/2023-07-moonwell#top
+
+{Embed}
+https://code4rena.com/contests/2023-07-moonwell
+Code4rena
+Code4rena is a competitive audit platform that finds more high-severity vulnerabilities, more quickly than any other auditing method.
+Code4rena - ARCHIVE-Q3-2023 - moonwell-jul24 [1131554860861501521].txt_Files/c4-og-banner-14641.png
+
+
+[07/21/2023 10:08] kartoonjoy (pinned)
+❗  Please note that for this contest, gas optimizations are out of scope. The Moonwell team will not be awarding prize funds for gas-specific submissions.
+
+
+[07/21/2023 10:08] kartoonjoy
+Pinned a message.
+
+
+[07/21/2023 10:09] kartoonjoy
+Pinned a message.
+
+
+[07/24/2023 21:40] 0xkazimm
+hey @elliot glade to work on this protocol, hope we can secure this protocol more than now together 🫡
+
+{Reactions}
+🫡 (3) 
+
+[07/24/2023 22:00] elliot0x
+hello wardens, I'll be available to answer your questions this week. looking forward to seeing what y'all dig up!
+
+{Reactions}
+👋 (5) code4rena (3) 
+
+[07/24/2023 22:19] 0xkazimm
+Did all the contracts in the scope will be deployed on other chains(evm chains) ?
+
+
+[07/25/2023 06:16] cholakovv
+@elliot  on which chains will the contracts be deployed?
+
+
+[07/25/2023 06:50] Amithuddar#9571
+@elliot  where i can check automated findings?
+
+
+[07/25/2023 06:51] cholakovv
+here: https://code4rena.com/contests/2023-07-moonwell#top
+but there are not already live
+
+{Embed}
+https://code4rena.com/contests/2023-07-moonwell
+Code4rena
+Code4rena is a competitive audit platform that finds more high-severity vulnerabilities, more quickly than any other auditing method.
+Code4rena - ARCHIVE-Q3-2023 - moonwell-jul24 [1131554860861501521].txt_Files/c4-og-banner-50A21.png
+
+{Reactions}
+👍 (2) 
+
+[07/25/2023 08:32] Amithuddar#9571
+ya in 10 hours it may go live
+
+
+[07/25/2023 14:35] 0xkazimm
+did each mToken have only one config ? it mentioned that each market should have one config, is this true for each mToken(is a market mean mToken? )
+
+
+[07/25/2023 15:03] 0xkazimm
+@elliot  can you open friend request please, discord don't allow to send you dm, thanks
+
+
+[07/25/2023 16:14] elliot0x
+base
+
+
+[07/25/2023 16:17] elliot0x
+each mToken has a single configuration in terms of interest rate model, reserve factor, underlying, etc. each mToken may have multiple rewards streams at the same time.
+
+{Reactions}
+❤️ 
+
+[07/25/2023 17:06] kawaicho
+Is the contest friendly with all of the ERC20 tokens?
+
+
+[07/25/2023 17:14] liveactionllamac4 (pinned)
+**Wardens** - please note that the automated findings output (AKA the winning bot race report 🏆, submitted by @IllIllI) is posted below.
+
+These are considered publicly known issues and are not eligible for awards.
+
+🤖 **Automated findings:** 
+https://gist.github.com/liveactionllama/0a27b77de2aa56abd2e215c82a39f86d
+
+📄 **Code4rena submission guidelines and automated findings policy:** 
+https://docs.code4rena.com/roles/wardens/submission-policy#automated-findings-ineligible
+
+The above link will also be added to the contest README shortly.
+
+
+[07/25/2023 17:14] liveactionllamac4
+Pinned a message.
+
+
+[07/25/2023 17:24] berlin.101
+Hi @elliot 👋 . Please add me as friend. I have some questions 🙏
+
+{Reactions}
+👍 
+
+[07/25/2023 19:25] elliot0x
+docs for all contracts can be found in the `docs/` folder
+
+
+[07/26/2023 02:58] tamayonft
+Sorry guys question
+
+{Reactions}
+😂 
+
+[07/26/2023 02:58] tamayonft
+Why keep the flywheel moving?
+
+
+[07/26/2023 05:45] elliot0x
+If you don’t keep it moving, users don’t receive rewards they are entitled to
+
+
+[07/26/2023 10:46] golanger
+Hi Elliot, on what chains are you deploying on?
+
+
+[07/26/2023 13:19] majin_moonwell
+Moonwell was be activating on Base
+
+
+[07/26/2023 13:46] golanger
+No other chains ser?
+
+
+[07/26/2023 13:50] majin_moonwell
+Moonwell is currently deployed on Moonbeam and Moonriver
+
+
+[07/26/2023 13:52] golanger
+Ok thanks
+
+{Reactions}
+N_ P_ 
+
+[07/26/2023 14:09] elliot0x
+The code for this audit will only be deployed on base
+
+{Reactions}
+👍 
+
+[07/26/2023 15:02] cayo.eth
+Hi @elliot  - I've messaged you a question regarding some of the rationale unauthorized failure inside Comptroller.
+
+{Reactions}
+👍 
+
+[07/26/2023 15:12] golanger
+Sent you a dm request if you can accept.
+
+
+[07/26/2023 15:12] majin_moonwell
+Sure thing
+
+
+[07/26/2023 15:40] golanger
+Awesome
+
+
+[07/26/2023 15:52] golanger
+Could you send me a friend request so I can discuss something with you please?
+
+
+[07/26/2023 17:27] elliot0x
+answered
+
+
+[07/26/2023 17:27] elliot0x
+dm's are open, feel free to ask away
+
+
+[07/26/2023 19:58] 0xkazimm
+for what reason we set the `initialIndexConstant` to 1e36 and for what case we use this variable please?
+
+
+[07/26/2023 20:29] elliot0x
+for any questions around cross contract calls and how this system fits together, please see
+
+`CROSSCONTRACTINTERACTION.md`
+
+
+[07/26/2023 20:40] 0xkazimm
+in which case the `userSupplyIndex == 0` is run in the `disburseSupplierRewardsInternal ` ? if this function was called first time for specific supplier address !?
+
+
+[07/27/2023 10:55] elcid2000
+Hey @elliot! Just dmed you!
+
+
+[07/27/2023 15:52] 0xkazimm
+what is the address for the chainlink feed that is used in this protocol please ?
+
+
+[07/27/2023 16:20] 0xkazimm
+@elliot
+
+
+[07/27/2023 16:25] elliot0x
+all addresses for testnet are here https://github.com/code-423n4/2023-07-moonwell/blob/main/test/proposals/Addresses.sol
+
+we don't know mainnet addresses yet because chainlink has yet to publish the addresses for their mainnet base price feeds
+
+{Embed}
+https://github.com/code-423n4/2023-07-moonwell/blob/main/test/proposals/Addresses.sol
+2023-07-moonwell/test/proposals/Addresses.sol at main · code-423n4/...
+Contribute to code-423n4/2023-07-moonwell development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q3-2023 - moonwell-jul24 [1131554860861501521].txt_Files/bf08f867-4d24-4e85-acf9-db0d6606a4c6-C3AA1
+
+{Reactions}
+❤️ 🤤 
+
+[07/27/2023 18:22] elliot0x
+The guardian is a trusted actor in the system
+
+{Reactions}
+👍🏻 
+
+[07/27/2023 19:11] 0xkazimm
+did the feed.decimals always return 8 in this line?
+```
+// Chainlink USD-denominated feeds store answers at 8 decimals
+        uint256 decimalDelta = uint256(18).sub(feed.decimals());
+```
+
+
+[07/27/2023 19:31] reentrant
+Does anybody know of a place where previous compound or benqi proposal sources are archived?
+
+
+[07/27/2023 22:54] 0xkazimm
+Previous compound can be found in their code link in their past audit as i know. You can find their previous audit on solodit
+
+
+[07/27/2023 23:05] reentrant
+ty
+
+{Reactions}
+❤️ 
+
+[07/28/2023 12:07] 0xtendency
+@elliot I just sent you a msg
+
+
+[07/28/2023 14:51] 0xkazimm
+can i know the relationship/interact between `chainlinkOracle.sol` and `ChainlinkCompositeOracle ` and how is their work flow?
+
+
+[07/28/2023 15:11] 0xkazimm
+and as i understand that the oracles get the feed data in moonbeam and moonriver and ethereum data feed list only right @elliot ?
+https://docs.chain.link/data-feeds/price-feeds/addresses?network=ethereum
+
+{Embed}
+https://docs.chain.link/data-feeds/price-feeds/addresses?network=ethereum
+Price Feed Contract Addresses | Chainlink Documentation
+Chainlink is the most widely used oracle network for powering universally connected smart contracts, enabling any blockchain to access real-world data & APIs.
+Code4rena - ARCHIVE-Q3-2023 - moonwell-jul24 [1131554860861501521].txt_Files/5fa2e075cfcf344baa0e9063_chainlink-open-gr-A6161.png
+
+
+[07/28/2023 16:08] 0xarz
+if there is a feed that does not exist like wsteth/usd then they have to deploy a composite oracle where the base is eth/usd, multiplier eth/steth and secondMultiplier is the wsteth / steth exchange rate and then this contract is set in the ChainlinkOracle contract
+
+{Reactions}
+❤️ (3) 👍 (2) 
+
+[07/28/2023 17:26] 0xkazimm
+Ty ser 🫡
+
+
+[07/28/2023 21:07] 0xkazimm
+simple question, what gt mean here ? is it mean `get` ??
+
+`return (price, oracleDecimals); /// price always gt 0 at this point`
+
+
+[07/28/2023 21:16] stormreckson
+Greater than
+
+
+[07/28/2023 21:20] 0xkazimm
+thanks ser :thankyou:
+
+
+[07/28/2023 21:56] 0xkazimm
+did anyone can deploy mERC20 market/token or only specific users can deploy it(timeloack or trusted users) ?
+
+
+[07/28/2023 22:23] elliot0x
+a community member will deploy and if governance accepts their deployment, a vote will happen on moonbeam to ratify and instantiate that market. if the community accepts the deployment, then it will be used.
+
+
+[07/28/2023 22:55] 0xdeo
+Hey @elliot I have a question if you could add me as a friend
+
+
+[07/28/2023 22:58] elliot0x
+ask q via dm request and I'll accept dm
+
+{Reactions}
+✅ 
+
+[07/29/2023 07:32] slightscan
+Do you have the original compound/benqi branch somewhere? without the changes. I would like to see the diff
+
+
+[07/29/2023 08:52] coffiasd
+does gas issue count in this content ?
+
+
+[07/29/2023 09:06] 0xrizwan
+gas optimizations are out of scope for this contest, you can check contest page.
+
+
+[07/29/2023 11:28] 0xcomfycat
+@elliot dm'ed
+
+
+[07/29/2023 13:22] 0xdeo
+@elliot dmd
+
+
+[07/29/2023 15:30] 0xkazimm
+who are the guardians ? are they trusted users that is set by the moonwell protocol?
+
+
+[07/29/2023 20:46] 0xdeo
+@elliot I tried messaging you but it didnt deliver
+
+
+[07/30/2023 00:39] majin_moonwell
+You can find the list of the 19 Wormhole guardians here: https://wormhole.com/network/
+
+{Embed}
+https://wormhole.com/network/
+Our Supported Blockchains | Wormhole | Wormhole
+Wormhole makes it possible for apps to go cross chain. See which blockchains are available on Wormhole for you to build on.
+Code4rena - ARCHIVE-Q3-2023 - moonwell-jul24 [1131554860861501521].txt_Files/wormhole-6E50C.png
+
+{Reactions}
+❤️ (2) 
+
+[07/30/2023 00:39] majin_moonwell
+https://wormholecrypto.medium.com/wormhole-guardians-everstake-83afb735cddd
+
+{Embed}
+https://wormholecrypto.medium.com/wormhole-guardians-everstake-83afb735cddd
+Wormhole Guardians — Everstake
+In this series, we’re going to tell you more about our trusted Guardians, the validators who keep the Wormhole network up and running.
+
+
+[07/30/2023 00:39] 0xkazimm
+Thanks ser 🫡
+
+{Reactions}
+🇳 🇵 
+
+[07/31/2023 15:56] block_chomper
+Hi @Majin / @elliot sent you DMs regarding Governance process - would you be able to respond as soon as possible please?
+
+
+[07/31/2023 19:56] 0xtendency
+This was a good one, I haven't worked this hard before, hoping for the best
+
+{Reactions}
+minecraftheart 
+
+[07/31/2023 20:00] 0xkazimm
+missed the final sub lol
+
+
+[07/31/2023 20:01] 0xkazimm
+good luck to all wardens and wish the best for this protocol 🙂
+
+{Reactions}
+minecraftheart (2) 
+
+[07/31/2023 20:02] C4
+**🚨 AUDIT ALERT**
+
+@🐺wardens The **Moonwell** audit is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the audit is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a Contest-Admin if you have questions along the way!
+
+{Reactions}
+🐺 (11) 
+
+[08/02/2023 18:04] c145h
+hh, wrong place
+
+
+[08/02/2023 21:33] uncle Jeff#4407
+bach 3rfti khona maghribi hh @sixiecow
+
+{Reactions}
+😂 (4) 
+
+[08/03/2023 05:39] sixiecow
+@jeffy bano li mgharba hna asat banli gher nz3mo ela chi team formation meahom
+
+
+[08/15/2023 02:56] okolicodes
+All the best ❤️
+
+
+[08/15/2023 02:57] okolicodes
+All the best too ❤️
+
+{Reactions}
+❤️ 
+
+[08/28/2023 05:52] tamayonft
+Any update about this contest?
+
+{Reactions}
+👀 
+
+[08/28/2023 13:15] mrosas
+^^^
+
+
+[08/28/2023 18:21] kodyvim
+Wrong contest 🥲
+
+{Reactions}
+😂 
+
+[08/28/2023 18:21] 0xkazimm
+lol my bad😂
+
+{Reactions}
+😂 (2) 
+
+[08/28/2023 18:22] 0xtendency
+You waiting for results that bad 😂
+
+{Reactions}
+😂 
+
+[08/28/2023 18:22] 0xkazimm
+yeah every day i check if someone share any update 😂
+
+{Reactions}
+😂 
+
+[08/28/2023 18:23] shubh0412
+Me reading chats for contests  I didn't even participate in
+
+{Reactions}
+🫠 
+
+[08/28/2023 18:23] kodyvim
+Seems rewards would be distributed soon 🤞
+
+
+[08/28/2023 18:23] 0xkazimm
+@thebrittfactor | C4 please tell us if the result will share soon 🫠
+
+{Reactions}
+👀 (2) 🤑 (2) 🥹 
+
+[08/28/2023 23:34] liveactionllamac4
+🤑 🎉  Awards for **Moonwell**:
+
+$15,362.75 USDC » @immeas 
+$12,924.20 USDC » @T1MOH 
+$7,526.15 USDC » @kankodu 
+$7,101.78 USDC » @Udsen 
+$5,746.14 USDC » @0xWaitress 
+$5,235.32 USDC » @ravikiranweb3 
+$5,235.32 USDC » @said 
+$2,487.26 USDC » @volodya 
+$2,372.55 USDC » @cryptonue 
+$1,212.54 USDC » @hals 
+$968.80 USDC » @0xcatellatech 
+$943.23 USDC » @mert_eren 
+$846.78 USDC » @kutu 
+$735.16 USDC » @Sathish9098 
+$725.97 USDC » @code-cipher 
+$695.22 USDC » @berlin.101 
+$655.36 USDC » @kodyvim 
+$589.38 USDC » @ast3ros 
+$575.86 USDC » @Jaraxxus775 
+$567.29 USDC » @sces60107 | GimelSec 
+$542.23 USDC » @nadin 
+$494.68 USDC » @markus_ether 
+$437.82 USDC » @Nyx 
+$434.74 USDC » @0xComfyCat 
+$321.64 USDC » @ABAIKUNANBAEV 
+$299.97 USDC » @0xkazim 
+$261.96 USDC » @Jigsaw 
+$239.81 USDC » @Vagner 
+$162.73 USDC » @bin2chen 
+$149.29 USDC » @niki 
+$149.29 USDC » @MohammedRizwan 
+$131.62 USDC » @Kaysoft 
+$114.65 USDC » @solsaver 
+$104.41 USDC » @dacian 
+$104.41 USDC » @R-Nemes 
+$104.41 USDC » @okolicodes 
+$104.41 USDC » @Hama 
+$104.41 USDC » @AuditWolf 
+$104.41 USDC » @tsar 
+$88.25 USDC » @0x70C9 
+$88.25 USDC » @Tendency 
+$86.74 USDC » RED-LOTUS-REACH (@escrow, @DedOhwale (GMT-7), @BlockChomper (GMT +4), @reentrant, & @MogiBlack)
+$69.77 USDC » @K42 Ψ 
+$69.77 USDC » @0xSmartContract 
+$44.88 USDC » @souilos 
+$44.88 USDC » @Santiago Moreno 
+$44.88 USDC » @Stormreckson 
+$44.88 USDC » @Rolezn 
+$44.88 USDC » @cats 
+$44.88 USDC » @33audits 
+$44.88 USDC » @Jorgect 
+$44.88 USDC » @Arz 
+$44.88 USDC » LosPollosHermanos (@scaraven, @lemonkurd, & @jc1)
+$44.88 USDC » @twcctop 
+$44.88 USDC » @josephdara 
+$44.88 USDC » @0xSmartContractSamurai 
+$44.88 USDC » @ChrisTina 
+$44.88 USDC » @0xAnah 
+$43.37 USDC » @0xl51 
+$15.29 USDC » @eeshenggoh 
+$15.29 USDC » @codetilda 
+$15.29 USDC » @albertwhite 
+$15.29 USDC » @banpaleo5 
+$15.29 USDC » @John_Femi 
+$15.29 USDC » @2997ms 
+$15.29 USDC » @Olanrewaju 
+$15.29 USDC » @Arcturus 
+$15.29 USDC » @0xackerman 
+$15.29 USDC » @petrichor🦖 
+$15.29 USDC » @James 
+$15.29 USDC » @none 
+$15.29 USDC » @naman1778 
+$15.29 USDC » @Topmark 
+
+🏁 Findings summary
+--------------------------------------—
+High risk findings: 0
+Med risk findings: 19 unique (68 total)
+QA reports: 56 (Best: immeas)
+Advanced analysis reports: 12 (Best: Sathish9098)
+
+Awards will be distributed on Polygon within the next week. Congratulations all!  💸 💸 💸
+
+*Note: If you participated in this audit and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.*
+
+{Reactions}
+🚀 (13) 🎉 (8) ❤️ (3) 
+
+[08/29/2023 01:02] 0xstalin
+congrats to all the winners, I didn't participate in this one, but noticed @T1MOH at the top2 and just wanted to congratulate him, well done sir, leave some rewards for the rest of us in the next contests 🫡
+
+{Reactions}
+😂 (4) 🔥 (3) 
+
+[08/29/2023 02:24] 0xtendency
+Congratulations guys 🥳
+@0xkazim good job
+
+{Reactions}
+🚀 🙏🏻 
+
+[08/29/2023 04:49] t1moh
+Thank you ser, now's your turn with @ABA to overtake me haha
+
+{Reactions}
+🚀 (6) 
+
+[08/29/2023 05:07] 0xnevi
+Wheres ur @T1MOH classic
+
+ “wow first 5 digits” 🤣
+
+{Reactions}
+chefskiss 
+
+[08/29/2023 05:16] t1moh
+Will do this when finally make 6 digit in total
+
+{Reactions}
+🚀 (4) 
+
+[08/29/2023 06:12] immeas
+this is actually my first 5 digits haha
+
+{Reactions}
+🔥 (11) 👏 (4) 
+
+[08/29/2023 06:15] topmark1
+humbly sitting below the food chain, lol😋
+
+{Reactions}
+🚀 (3) 
+
+[08/29/2023 06:17] t1moh
+Wow
+
+
+[08/29/2023 07:31] catscanaudit
+I forgot I even reported something here lol…
+
+{Reactions}
+hi5 
+
+[08/29/2023 07:31] catscanaudit
+First 2 digit payout, from my 2nd audit done 😂
+
+
+[08/29/2023 07:31] catscanaudit
+Thanks
+
+
+[08/29/2023 07:42] kawaicho
+how do you take your reward
+
+
+[08/29/2023 07:52] 0x3b
+They will send it in a few days, directly to your poligon address
+
+{Reactions}
+👍🏻 
+
+[08/29/2023 07:56] aba1842
+ahahah, congrats congrats! be sure I will tag you when I will. Keep it up 😄 reaching the top and staying in the top are 2 different things (words of auditing wisdom 😄 )
+
+{Reactions}
+👍 (2) 
+
+[08/29/2023 08:01] catscanaudit
+Hmm I just have a normal metamask
+
+
+[08/29/2023 08:01] catscanaudit
+Can I still receive it or do I need some sort of poligon address
+
+
+[08/29/2023 08:49] 0x3b
+...
+
+
+[08/29/2023 08:49] 0x3b
+In your MM you have an address that coresponds to every chain
+
+
+[08/29/2023 08:51] 0x3b
+But make sure you "discover"  your USDC or your MM won't display it. The usdc will be there, just not the visual
+
+
+[08/29/2023 09:23] catscanaudit
+I didn't know it corresponds the same on every chain
+
+
+[08/29/2023 11:14] 0xkazimm
+Ty ser 🫡✨
+
+
+[08/29/2023 12:35] okolicodes
+@Tendency congratulations my friend🎉
+
+{Reactions}
+🙏 (2) 
+
+[08/29/2023 12:37] 0xtendency
+@okolicodes  I see you brother.
+Congratulations, we aim to perform better next time
+
+{Reactions}
+❤️ 
+
+[08/29/2023 13:07] catscanaudit
+@0xComfyCat
+
+
+[08/29/2023 13:07] catscanaudit
+Felines team inc
+
+{Reactions}
+😊 (2) 
+
+[08/29/2023 13:55] Udsen#2087
+Congratulations all !!!
+
+{Reactions}
+thankyou (3) 
+
+[08/30/2023 23:01] mstyv3003
+Hi admins, must you be certified to get the rewards?
+I noticed that my findings was not rewarded
+
+
+[08/30/2023 23:54] olanre_waju
+No need to be certified to get reward for this contest, your finding was must have been invalidated. Better luck next time.
+
+
+[08/31/2023 00:04] mstyv3003
+okey thank you,
+So I'll get any feedback on the reasons for the rejection?
+
+
+[08/31/2023 00:05] olanre_waju
+When the report is out officially, you can check the repo to see why your submission was rejected.
+
+{Reactions}
+👍🏼 
+
+==============================================================
+Exported 120 message(s)
+==============================================================
